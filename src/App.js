@@ -1,8 +1,8 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Quiz from "./components/Quiz";
-import Service from "./components/Service";
+import Pricing from "./components/Pricing";
 import Support from "./components/Support";
 
 function App() {
@@ -10,11 +10,12 @@ function App() {
  <>
  <Navbar/>
  <Hero/>
- <Service/>
  <About/>
  <Support/>
+ <Pricing/>
+ <Footer/>
 
- {/* <Quiz/> */}
+ 
  </>
   );
 }
