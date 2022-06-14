@@ -4,12 +4,25 @@
 
 @layer base {
   li {
-    @apply p-4 cursor-pointer hover:scale-110 
+    @apply p-6 cursor-pointer hover:scale-110 hover:bg-indigo-600 hover:text-white
   }
   
-
+ 
   button {
     @apply text-white border bg-indigo-600 border-indigo-600
     hover:bg-transparent hover:text-indigo-600 rounded-md hover:scale-110
   }
+
+  /* html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: white ;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    @apply bg-zinc-200; ;
+  } */
+
 }
